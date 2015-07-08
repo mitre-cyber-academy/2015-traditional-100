@@ -14,6 +14,8 @@ If not, the user receives a message that they are not near any flags and should 
 
 Otherwise, the text from the text file is sent back to the webpage. This text is processed in the webpage to format the text and "decode" the character which is in the flag. This gives the user the message "You are <at waypoint near retrieved geolocation>. Have a Flag Piece! <Character in flag>"
 
+To run/test locally, cd into the folder and type "python -m SimpleHTTPServer" (you need python installed on your machine to do this). Final implementation will hopefully have the used files hidden. Then go to localhost:8000/getgeo2 in your browser.
+
 Solution:
 
 Spoofing geolocation is very easy. Googling "How to spoof geolocation" brings up an easy solution using Google Chrome. Source: http://www.labnol.org/internet/geo-location/27878/
