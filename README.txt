@@ -55,3 +55,7 @@ Users would then need to observe the webpage source to determine the order of th
 5->A
 10->0
 3->7
+
+Running the challenge with Docker:
+
+This challenge includes a Dockerfile which can be used to run the challenge. In order to do so run `docker build -t virtualgeocachingbinary .` and then `docker run -d -p 8080:80 virtualgeocachingbinary`. The challenge will now be accessible on the docker host on port 8080.
